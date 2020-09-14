@@ -5,11 +5,10 @@
 function scrollAppear() {
     var exitText = document.querySelector('.exit-text');
     var exitPosition = exitText.getBoundingClientRect().top;
-    var screenPosition = window.innerHeight/ 1.4; // makes it responsive to whatever size user display happens to be
+    var screenPosition = window.innerHeight / 2; // makes it responsive to whatever size user display happens to be
 
     if (exitPosition < screenPosition) {
         exitText.classList.add('exit-text-appear');
     }
 }
 window.addEventListener('scroll', scrollAppear);
-}

@@ -110,6 +110,7 @@ body {
     width: 40%;
     opacity: 0;
     transform: translateY(20px);
+    transition:1.5s all ease-in-out
 }
 
 .exit-text-appear {
